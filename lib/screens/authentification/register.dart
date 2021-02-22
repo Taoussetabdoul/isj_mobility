@@ -27,7 +27,7 @@ class _RegisterState extends State<Register> {
     setState(() {
       _loading = true;
     });
-    final response = await http.post("http://192.168.8.101/flutterMysql/register.php", body: {
+    final response = await http.post("https://ordinaire-neutrons.000webhostapp.com/flutterMysql/register.php", body: {
       "name":name,
       "email":email,
       "pass":pass
