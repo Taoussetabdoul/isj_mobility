@@ -1,6 +1,6 @@
 <?php
     $host = "localhost";
-    $dbname = "test_mobility";
+    $dbname = "isj_mobile";
     $user = "root";
     $pass = "";
     
