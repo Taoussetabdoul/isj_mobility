@@ -1,15 +1,18 @@
+
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_login/flutter_login.dart';
 
 import 'home.dart';
 
-const users = const {
+Map users =  {
   'dribbble@gmail.com': '12345',
   'admin@test.cm': 'admin',
 };
 
 class Login extends StatelessWidget {
   Duration get loginTime => Duration(milliseconds: 2250);
+
 
   Future<String> _authUser(LoginData data) {
     print('Name: ${data.name}, Password: ${data.password}');

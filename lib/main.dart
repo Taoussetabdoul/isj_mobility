@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:isj_mobility/screens/LoginTest.dart';
+import 'package:isj_mobility/screens/homePage.dart';
 import 'package:isj_mobility/screens/login.dart';
 import 'package:isj_mobility/screens/home.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.transparent,
       ),
       debugShowCheckedModeBanner: false,
-      home: new Login(),
+      home: new HomePage(),
     );
   }
 }

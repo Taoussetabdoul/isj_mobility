@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:isj_mobility/model/userModel/userModel.dart';
 
 import 'homelander/settings.dart';
 import 'homelander/souscrip.dart';
 import 'homelander/convoit.dart';
 
+
+
 class Home extends StatefulWidget {
-  Home({Key key}) : super(key: key);
+  final VoidCallback login;
+  Home({this.login});
 
   @override
   _Home createState() => _Home();
@@ -24,18 +29,22 @@ class _Home extends State<Home> {
     setState(() {
       _selectedIndex = index;
     });
-  }
 
+
+  }
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: new AppBar(
-        title: new Text('ISJ MOBILITY'),
+        title: new Text("ISJ MOBILITY"),
         leading: new Icon(Icons.account_circle),
-        actions: <Widget>[
-          new Image.asset("images/logo_isj.jpg"),
+        actions: [
+          IconButton(icon: Icon(FontAwesomeIcons.signOutAlt, color: Colors.white,), onPressed: (){
+            widget.login.call();
+            UserModel.logOut();
+          }),
         ],
         elevation: 10.0,
         centerTitle: true,
@@ -65,5 +74,6 @@ class _Home extends State<Home> {
       ),
     );
   }
+
 
 }
