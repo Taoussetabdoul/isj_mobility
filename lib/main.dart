@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:isj_mobility/screens/homePage.dart';
-import 'package:isj_mobility/screens/login.dart';
-import 'package:isj_mobility/screens/home.dart';
 
 void main() => runApp(MyApp());
 

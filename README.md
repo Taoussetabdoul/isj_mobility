@@ -1,16 +1,15 @@
-# isj_mobility
+     # isj_mobility
+     
+     Application Mobile de covoiturage réalisé par les étudiants DONGMO KEMBOU et TOUSSET d’INGE5 MSI pour le compte du projet ISI du semestre 1 del’année académique 2020/2021.
+     
+     ## Getting Started
+     
+     ISJ Mobility est une aplication dontle but est de faciliter les déplacements pour ou depuis le nouveau campus de l’ISJ..
+     
+     ## Codes
 
-ISJ MOBILITY
+	Actuellement à la version 0.7 vous trouverez dans le dossier "Lib" les dossiers contenant les interfaces("screens"), celui contenant les entités("model"), celui contenant le code d’encryptage des données vers la bd("cryp"t) et celui contenant les widgets les plus utilisés et l’interface de loading("widgets").
 
-## Getting Started
+Remarque: Les scripts BD qui doivent être dans le SGBD sont dans le dossier "flutterMysql" situé dans le dossier "Lib".
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+NB: Par soucis de temps nous n'avons pas créer de services web mais nous avons opteé à utiliser la même base de donnés en locale.
