@@ -1,16 +1,16 @@
 # isj_mobility
 
-Application Mobile de covoiturage réalisé par les étudiants DONGMO KEMBOU et TOUSSET d’INGE5 MSI pour le compte du projet ISI du semestre 1 del’année académique 2020/2021.
+Application Mobile de covoiturage rÃ©alisÃ© par les Ã©tudiants DONGMO KEMBOU et TOUSSET dâ€™INGE5 MSI pour le compte du projet ISI du semestre 1 delâ€™annÃ©e acadÃ©mique 2020/2021.
      
 ## Getting Started
      
-ISJ Mobility est une aplication dont le but est de faciliter les déplacements pour ou depuis le nouveau campus de l’ISJ..
-     
+ISJ Mobility est une aplication dont le but est de faciliter les dÃ©placements pour ou depuis le nouveau campus de lâ€™ISJ..
+DÃ©veloppÃ© avec le framework Flutter
+
 ## Codes
 
-Vous trouverez dans le dossier "lib" les dossiers contenant les interfaces("screens"), celui contenant les entités("model"), celui contenant le code d’encryptage des données vers la bd("crypt"),celui contenant les widgets les plus utilisés et l’interface de loading("widgets") et celui contenant des Scripts ("flutterMysql").
+Vous trouverez dans le dossier "lib" les dossiers contenant les interfaces("screens"), celui contenant les entitÃ©s("model"), celui contenant le code dâ€™encryptage des donnÃ©es vers la bd("crypt"),celui contenant les widgets les plus utilisÃ©s et lâ€™interface de loading("widgets") et celui contenant des Scripts ("flutterMysql").
 
-Remarque: Actuellement à la version 0.7  pour lancer l'application il faut coller le dossier "flutterMysql" situé dans le dossier "Lib" à la racine de votre SGBDR mysql .
- exemple avec XAMPP: C:\xampp\htdocs
+Remarque: Actuellement Ã  la version 0.7
 
-NB: Par soucis de temps nous n'avons pas créer de services web mais nous avons opté à utiliser la même base de donnés avec la partie web. Toutes les fontionnalités de la partie Web n'ont pas pu être incoporées dans cette version 0.7 daté du 12/02/2021.
+NB: Par soucis de temps nous n'avons pas crÃ©er de services web mais nous avons optÃ© Ã  utiliser la mÃªme base de donnÃ©s avec la partie web. Toutes les fontionnalitÃ©s de la partie Web n'ont pas pu Ãªtre incoporÃ©es dans cette version 0.7 datÃ© du 12/02/2021.
